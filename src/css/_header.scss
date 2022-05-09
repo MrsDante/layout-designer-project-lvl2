@@ -1,0 +1,31 @@
+header {
+    width: 1200px;
+}
+
+.main-header {
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.header-navigation {
+    padding-top: 25px;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header-navigation-item {
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav-left {
+  padding-left: 159px;
+ 
+}
+
+.header-main {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
