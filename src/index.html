@@ -9,10 +9,11 @@
   <body>
    
     <header class="main-header" id="page-description">
-       <nav class="header-navigation">
+      
+      <nav class="header-navigation">
 
         <div class="header-nav-left">
-         <img src="../src/images/logo.svg">
+         <img src="images/logo.svg" alt="maik" class="header-logo">
          <a class="header-navigation-item" href="#">Music Box</a>
         </div>
         <div class="header-nav-middle">
@@ -22,64 +23,56 @@
          <a class="header-navigation-item" href="#">Контакты</a>
         </div>
         <div class="header-nav-right">
-         <form class="header-nav-search">
-           <input>
-           <label>Поиск...</label>
-         </form>
+         
+          <input type="text" placeholder=" ПОИСК..." class="navigation-search-form">
+        
         </div>
       
         </nav>
 
         <div class="header-main">
           <h1 class="header-main-title">Онлайн музыка где угодно</h1>
-          <h2>без ограничений</h2>
-          <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+          <h2 class="header-secont-title">без ограничений</h2>
+          <p class="header-description">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
         
           <div class="header-register-forms">
-          <form class="header-register-name">
-           <input>
-           <label>Имя</label>
-         </form>
-
-         <form class="header-register-email">
-          <input>
-          <label>Email</label>
-         </form>
-         <button class="btn header-button">Получить доступ</button>
-          </div>
+            <input type="text" placeholder=" Имя" class="header-form-name">
+            <input type="text" placeholder=" Email" class="header-form-email">
+          
+         <button class="btn header-button" type="submit">Получить доступ</button>
+        </div>
+          
         </div>
 
     </header>
 
 
-    <section class="subscription">
+    <section class="subscription" id="page-pricing">
+      <h2 class="sub-title">Формы подписки</h2>
        <div class="subscription-items">
           
-          <div class="subscription-item">
-            <h2>Бесплатная</h2>
+          <div class="subscription-item sub-item-bg-1">
+            <h3 class="subs-title">Бесплатная</h3>
             <div class="sub-price">
-              <h1>0</h1>
-              <h2>РУБ.</h2>
+              <p class="pricing-value">0<sup><span class="prise-up">РУБ.</span></sup></p>
             </div>
             <button class="btn sub-button">ОФОРМИТЬ</button>
             <p class="sub-description">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
           </div>
 
-          <div class="subscription-item">
-            <h2>Стандартная</h2>
+          <div class="subscription-item sub-item-bg-2">
+            <h3 class="subs-title">Стандартная</h3>
             <div class="sub-price">
-              <h1>250</h1>
-              <h2>РУБ.</h2>
+              <p class="pricing-value">250<sup><span class="prise-up">РУБ.</span></sup></p>
             </div>
             <button class="btn sub-button">ОФОРМИТЬ</button>
             <p class="sub-description">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
           </div>
 
-          <div class="subscription-item">
-            <h2>Премиум</h2>
+          <div class="subscription-item sub-item-bg-3">
+            <h3 class="subs-title">Премиум</h3>
             <div class="sub-price">
-              <h1>500</h1>
-              <h2>РУБ.</h2>
+              <p class="pricing-value">500<sup><span class="prise-up">РУБ.</span></sup></p>
             </div>
             <button class="btn sub-button">ОФОРМИТЬ</button>
             <p class="sub-description">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</p>
