@@ -2,6 +2,8 @@
     padding-top: 100px;
 
     text-align: center;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 .subscription-items {
@@ -43,6 +45,10 @@
     text-transform: uppercase;
 }
 
+.sub-description {
+    font-weight: 12.8px;
+}
+
 .sub-button {
     background-color: transparent;
     border: 2px solid #cacaca;
@@ -65,7 +71,7 @@
 
 .pricing-value {
     line-height: 1em;
-    padding-top: 260px;
+    padding-top: 120px;
     padding-bottom: 40px;
     margin: 0;
 

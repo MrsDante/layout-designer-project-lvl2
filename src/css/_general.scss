@@ -16,14 +16,14 @@
     src: url("../fonts/Roboto-Bold.ttf")  format("truetype");
   }
   
-  * {
+ /* * {
     box-sizing: border-box;
-  }
+  }*/
 
 
 body {
     font-family: Roboto, sans-serif;
-    font-size: 18px;
+    /*font-size: 18px;*/
     line-height: 1.5;
     background-color: #08020d;
     color: #cacaca;
@@ -38,10 +38,14 @@ h1 {
 }
 
 h2 {
-    font-size: 38px;
+    /*font-size: 38px;*/
     line-height: 57px;
     font-weight: bold;
     text-transform: uppercase;    
+}
+
+h3 {
+  font-size: 30px;
 }
 
 @media (max-width: 770px) {

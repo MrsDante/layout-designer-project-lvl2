@@ -2,7 +2,7 @@
 
 header {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1440px;
     position: relative;
 }
 
@@ -10,6 +10,8 @@ header {
     background-image: url("../images/banner.png");
     background-position: center;
     background-size: cover;
+
+    width: 100%;
 }
 
 .header-logo {
@@ -19,11 +21,14 @@ header {
 
 .header-navigation {
     padding-top: 25px;
-
+    padding-right: 120px;
+    padding-left: 120px;
+    
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     
-
 
     font-size: 11px;
     font-weight: normal;
@@ -31,19 +36,34 @@ header {
 
 .header-navigation-item {
     text-decoration: none;
-    color: white;
+    text-transform: uppercase;
+    color: #CACACA;
+
+  &.white-color {
+      color: white;
+  }
 }
+
+
+
 
 .header-nav-left {
-  padding-left: 119px;
-}
+    justify-self: flex-start;
+    align-self: center;
 
-.header-nav-middle {
-    padding-left: 90px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
 
 .header-nav-right {
-    padding-right: -121px;
+    justify-self: flex-end;
+}
+
+.header-nav-middle {
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
 
 .navigation-search-form {
@@ -84,7 +104,7 @@ header {
 
 
 .header-button {
-    width: 570px;
+    width: 1070px;
     border-radius: 5px;
     padding: 20px 30px;
     background-color: #34C176;
