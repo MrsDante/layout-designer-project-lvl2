@@ -93,6 +93,10 @@ header {
     margin: 0;
 }
 
+.header-description {
+    padding-bottom: 17px;
+}
+
 .header-secont-title {
     padding-bottom: 31px;
 }
@@ -100,11 +104,16 @@ header {
 .header-register-forms {
     display: grid;
     grid-column-gap: 24px;
+
+    max-width: 570px;
+    justify-content: center;
+    margin-left: 195px;
   }
 
 
 .header-button {
-    width: 1070px;
+    /*width: 1070px;*/
+    min-width: 570px;
     border-radius: 5px;
     padding: 20px 30px;
     background-color: #34C176;
@@ -122,6 +131,7 @@ header {
     border-radius: 3px;
 
     min-width: 270px;
+  
     min-height: 50px;
 
     padding-left: 20px;
@@ -138,4 +148,71 @@ header {
   .header-form-email {
     grid-column: 2/3;
     grid-row: 1;
+  }
+
+  @media (max-width: 770px) {
+    header {
+        width: 100%;
+        max-width: 770px;
+       padding-right: 20px;
+       padding-left: 20px;
+    }
+
+    .header-navigation {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        padding: 27px 0 0 0;
+
+        align-items: flex-start;
+    }
+
+    .header-nav-middle {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+        padding-top: 17px;
+    }
+
+    .header-navigation-item {
+        align-self: flex-start;
+        justify-self: center;
+    }
+
+    .header-nav-left {
+        align-self: flex-start;
+        justify-self: center;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation-search-form {
+        width: 70vh;
+        margin-top: 17px;
+    }
+
+    .header-main {
+        margin: 0;
+    }
+
+   .header-register-forms {
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+   }
+
+   .header-button {
+       min-width: 270px;
+   }
+
+   .mobile-grey {
+       color: #CACACA;
+   }
+
+   .mobile-white {
+       color: white;
+   }
   }
