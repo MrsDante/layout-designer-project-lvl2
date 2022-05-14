@@ -85,3 +85,45 @@
 .sub-section-note {
     margin: 0;
 }
+
+
+@media (max-width: 770px) {
+    .subscription {
+        width: 100%;
+        max-width: 770px;
+       padding-right: 20px;
+       padding-left: 20px;
+       margin: 0;
+    }
+
+    .sub-title {
+        margin: 0;
+        padding-bottom: 46px;
+    }
+   
+    .subscription-items {
+       display: flex;
+       flex-direction: column;
+       gap: 24px;
+      
+    }
+
+    .sub-description {
+        margin: 0;
+        padding-top: 64px;
+        padding-bottom: 87px;
+    }
+    
+    .subs-title {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .sub-price {
+        padding-top: 203px;
+    }
+
+    .sub-button {
+        margin-bottom: 0;
+    }
+}
