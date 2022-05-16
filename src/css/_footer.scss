@@ -72,3 +72,25 @@ flex-direction: row;
 .footer-img-marg {
     margin-right: 24px;
 }
+
+@media (max-width: 770px) {
+    .main-footer {
+       width: 100%;
+       max-width: 770px;
+       padding-right: 20px;
+       padding-left: 20px;
+       margin: 0;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    
+    .footer-navigation-line {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
