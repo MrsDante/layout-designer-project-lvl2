@@ -1,0 +1,62 @@
+#page-popular-track {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.tracks-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+}
+
+.popular-track {
+    display: flex;
+    flex-direction: row;
+}
+
+.popular-track-title {
+    font-size: 12.8px;
+    font-weight: bold;
+    color: white;
+}
+
+.popular-track-descr {
+    font-size: 12.8px;
+    margin: 0;
+}
+
+.track-info {
+    align-self: center;
+    margin-left: 15px;
+}
+
+.track-duration {
+    align-self: center;
+    margin-left: auto;
+}
+
+.popular-track {
+margin-bottom: 25px;
+}
+
+.popular-track-header {
+    margin-bottom: 48px;
+}
+
+.margin-none {
+    margin-bottom: 0;
+}
+
+@media (max-width: 770px) {
+
+    .tracks-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .margin-none:not(:last-child){
+        margin-bottom: 25px;
+    }
+
+}

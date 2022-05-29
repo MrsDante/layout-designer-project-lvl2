@@ -1,0 +1,118 @@
+@import "variables";
+
+header {
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+}
+
+.main-header {
+    background-image: url("../images/Morten\ Harket.png");
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+}
+
+.header-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.header-navigation {
+    padding-top: 25px;
+    padding-right: 120px;
+    padding-left: 120px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.header-navigation-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #CACACA;
+
+  &.white-color {
+      color: white;
+  }
+}
+
+.navigation-search-form {
+    width: 248px;
+    height: 25px;
+    padding: 0;
+    margin-right: 0;
+    border-radius: 50px;
+    background-color: $dark;
+    box-sizing: border-box;
+    border-color: transparent;
+}
+
+/*.header-navigation-item:not(:first-child) {
+padding-left: 24px;
+}*/
+
+.header-nav-right {
+    justify-self: flex-end;
+}
+
+.header-nav-middle {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.header-nav-left {
+    justify-self: flex-start;
+    align-self: center;
+
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.header-main {
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.header-main-title {
+    margin: 0;
+}
+
+.header-description {
+    margin-bottom: 0;
+}
+
+.header-artist-buttons {
+    margin-top: 48px;
+}
+
+.btn {
+    width: 200px;
+    padding: 20px 30px;
+    font-size: 12.8px;
+    text-transform: uppercase;
+    border-color: transparent;
+}
+
+.violet-btn {
+    background-color: #5328A1;
+}
+
+.orange-btn {
+    background-color: #95390C;
+}
+
+.sign {
+   width: 20px; 
+   height: 20px;
+}
+

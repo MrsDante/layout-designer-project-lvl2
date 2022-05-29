@@ -1,0 +1,177 @@
+@import "variables";
+
+.page-description-background {
+  width: 100%;
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.artist-background {
+  width: 100%;
+  background-image: url('../images/Morten Harket.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#page-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: #FFFFFF;
+}
+
+.instruction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font: 16px/1.5 Roboto, serif;
+  margin-top: 31px;
+}
+
+.subscribe-section {
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.page-description-forms {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 17px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form-inputs {
+  display: inline-flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 1.5rem;
+  color: #FFFFFF;
+}
+
+form input {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  border: 2px solid $darkgrey;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+form input::placeholder {
+  color: #FFFFFF;
+}
+
+.bg-color {
+  background-color: $green;
+}
+
+.artist-description {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.content-wrapper-artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.artist-name {
+  margin-bottom: 16px;
+}
+
+.artist-description-content p {
+  margin: 16px 0 38px;
+  font: 16px/1.5 Roboto, serif;
+}
+
+.artist-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  border-color: transparent;
+}
+.artist-buttons button {
+  height: 62px;
+  width: 200px;
+}
+
+.btn-content {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-items: flex-start;
+  align-items: center;
+  font: 12.8px/1.5 Roboto, serif;
+}
+
+.sign {
+  height: 20px;
+  filter: invert(100%);
+}
+
+.red-background {
+  background-color: $red;
+}
+
+.purple-background {
+  background-color: $purple;
+}
+
+@media (max-width: 770px) {
+  .instruction {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 31px;
+  }
+  .page-description-forms {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 17px;
+  }
+  .form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+    margin-bottom: 1.5rem;
+    color: #FFFFFF;
+  }
+  form input {
+    flex: 1;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    border: 2px solid $darkgrey;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+  .artist-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
