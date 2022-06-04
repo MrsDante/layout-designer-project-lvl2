@@ -37,20 +37,27 @@
   width: 100%;
   background-color: transparent;
   border: 1px solid #CACACA;
+
+  box-sizing: border-box;
+  text-align: center;
 }
+
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
 }
 
 .pricing-item {
-  flex: 1;
+  /*flex: 1;*/
+  
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  /*padding-left: 1.5rem;
+  padding-right: 1.5rem;*/
+  padding-right: 25px;
+  padding-left: 25px;
   padding-bottom: 64px;
   border-radius: 1rem;
   font-size: 12.8px;
@@ -62,7 +69,11 @@ a {
   font-size: 24px;
   line-height: 36px;
   text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 17px;
 }
+
+
 
 .pricing-value {
   display: flex;

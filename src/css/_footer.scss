@@ -56,6 +56,15 @@ a {
   gap: 24px;
 }
 
+.footer-items-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-adress {
+  margin: 0;
+}
+
 @media (max-width: 770px) {
   .footer-top-part {
     display: grid;
