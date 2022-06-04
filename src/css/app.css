@@ -21,6 +21,7 @@ body {
   background-color: #08020d;
   color: #cacaca;
   margin: 0;
+  width: 100%;
 }
 
 h1 {
@@ -629,18 +630,18 @@ footer {
 
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  width: 100%;
 }
 
 .footer-top-part {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (270px)[4];
+      grid-template-columns: repeat(4, 270px);
   gap: 40px;
   padding-top: 62px;
-  padding-bottom: 72px;
+  padding-bottom: 55px;
   width: 100%;
-  margin-right: 120px;
   margin-left: 120px;
 }
 

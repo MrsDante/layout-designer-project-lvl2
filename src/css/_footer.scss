@@ -8,17 +8,18 @@ footer {
 
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+
+  width: 100%;
 }
 
 .footer-top-part {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 270px);
   gap: 40px;
   padding-top: 62px;
-  padding-bottom: 72px;
+  padding-bottom: 55px;
   width: 100%;
 
-  margin-right: 120px;
   margin-left: 120px;
 }
 
