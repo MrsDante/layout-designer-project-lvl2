@@ -12,7 +12,7 @@ footer {
 
 .footer-top-part {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, auto);
   gap: 40px;
   padding-top: 62px;
   padding-bottom: 72px;

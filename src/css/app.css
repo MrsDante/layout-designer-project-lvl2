@@ -644,8 +644,8 @@ footer {
 .footer-top-part {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
   gap: 40px;
   padding-top: 62px;
   padding-bottom: 72px;
