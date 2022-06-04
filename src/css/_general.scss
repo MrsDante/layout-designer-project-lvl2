@@ -16,14 +16,20 @@
   src: url("../fonts/Roboto-Bold.ttf")  format("truetype");
 }
 
+body, html { 
+  width: 100%;
+}
 
 body {
   font: 18px/1.5 Roboto, sans-serif;
   background-color: #08020d;
   color: #cacaca;
   margin: 0;
+}
 
-  width: 100%;
+section {
+  min-width: 100%;
+  position: relative;
 }
 
 h1 {
